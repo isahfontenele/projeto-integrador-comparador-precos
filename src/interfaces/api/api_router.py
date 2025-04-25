@@ -17,3 +17,9 @@ def read_root():
     return {
         "Message": teste        
     }
+
+@api_router.get("/hello-world")
+def read_root():
+    return {
+        "Hello World!"
+    }
